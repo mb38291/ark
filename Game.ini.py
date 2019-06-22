@@ -1,0 +1,452 @@
+; -- Thatch_Structures ()
+ConfigOverrideItemCraftingCosts=(ItemClassString="PrimalItemStructure_ThatchCeiling_C",BaseCraftingResourceRequirements=(
+	(ResourceItemTypeString="PrimalItemResource_Thatch_C",BaseResourceRequirement=2.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_Wood_C",BaseResourceRequirement=1.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_Fibers_C",BaseResourceRequirement=2.0,bCraftingRequireExactResourceType=false)))
+ConfigOverrideItemCraftingCosts=(ItemClassString="PrimalItemStructure_ThatchFloor_C",BaseCraftingResourceRequirements=(
+	(ResourceItemTypeString="PrimalItemResource_Thatch_C",BaseResourceRequirement=2.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_Wood_C",BaseResourceRequirement=1.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_Fibers_C",BaseResourceRequirement=2.0,bCraftingRequireExactResourceType=false)))
+ConfigOverrideItemCraftingCosts=(ItemClassString="PrimalItemStructure_ThatchWall_C",BaseCraftingResourceRequirements=(
+	(ResourceItemTypeString="PrimalItemResource_Thatch_C",BaseResourceRequirement=2.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_Wood_C",BaseResourceRequirement=1.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_Fibers_C",BaseResourceRequirement=2.0,bCraftingRequireExactResourceType=false)))
+ConfigOverrideItemCraftingCosts=(ItemClassString="PrimalItemStructure_ThatchWallWithDoor_C",BaseCraftingResourceRequirements=(
+	(ResourceItemTypeString="PrimalItemResource_Thatch_C",BaseResourceRequirement=2.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_Wood_C",BaseResourceRequirement=1.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_Fibers_C",BaseResourceRequirement=2.0,bCraftingRequireExactResourceType=false)))
+ConfigOverrideItemCraftingCosts=(ItemClassString="PrimalItemStructure_ThatchRoof_C",BaseCraftingResourceRequirements=(
+	(ResourceItemTypeString="PrimalItemResource_Thatch_C",BaseResourceRequirement=2.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_Wood_C",BaseResourceRequirement=1.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_Fibers_C",BaseResourceRequirement=2.0,bCraftingRequireExactResourceType=false)))
+ConfigOverrideItemCraftingCosts=(ItemClassString="PrimalItemStructure_ThatchWall_Sloped_Left_C",BaseCraftingResourceRequirements=(
+	(ResourceItemTypeString="PrimalItemResource_Thatch_C",BaseResourceRequirement=2.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_Wood_C",BaseResourceRequirement=1.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_Fibers_C",BaseResourceRequirement=2.0,bCraftingRequireExactResourceType=false)))
+ConfigOverrideItemCraftingCosts=(ItemClassString="PrimalItemStructure_ThatchWall_Sloped_Right_C",BaseCraftingResourceRequirements=(
+	(ResourceItemTypeString="PrimalItemResource_Thatch_C",BaseResourceRequirement=2.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_Wood_C",BaseResourceRequirement=1.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_Fibers_C",BaseResourceRequirement=2.0,bCraftingRequireExactResourceType=false)))
+
+; -- Wood_Structures ()
+ConfigOverrideItemCraftingCosts=(ItemClassString="PrimalItemStructure_WoodSpikeWall_C",BaseCraftingResourceRequirements=(
+	(ResourceItemTypeString="PrimalItemResource_Hide_C",BaseResourceRequirement=10.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_Wood_C",BaseResourceRequirement=20.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_Fibers_C",BaseResourceRequirement=30.0,bCraftingRequireExactResourceType=false)))
+ConfigOverrideItemCraftingCosts=(ItemClassString="PrimalItemStructure_WoodCatwalk_C",BaseCraftingResourceRequirements=(
+	(ResourceItemTypeString="PrimalItemResource_Wood_C",BaseResourceRequirement=2.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_Thatch_C",BaseResourceRequirement=2.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_Fibers_C",BaseResourceRequirement=2.0,bCraftingRequireExactResourceType=false)))
+ConfigOverrideItemCraftingCosts=(ItemClassString="PrimalItemStructure_WoodFloor_C",BaseCraftingResourceRequirements=(
+	(ResourceItemTypeString="PrimalItemResource_Wood_C",BaseResourceRequirement=8.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_Thatch_C",BaseResourceRequirement=2.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_Fibers_C",BaseResourceRequirement=2.0,bCraftingRequireExactResourceType=false)))
+ConfigOverrideItemCraftingCosts=(ItemClassString="PrimalItemStructure_WoodWall_C",BaseCraftingResourceRequirements=(
+	(ResourceItemTypeString="PrimalItemResource_Wood_C",BaseResourceRequirement=4.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_Thatch_C",BaseResourceRequirement=2.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_Fibers_C",BaseResourceRequirement=2.0,bCraftingRequireExactResourceType=false)))
+ConfigOverrideItemCraftingCosts=(ItemClassString="PrimalItemStructure_WoodCeiling_C",BaseCraftingResourceRequirements=(
+	(ResourceItemTypeString="PrimalItemResource_Wood_C",BaseResourceRequirement=4.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_Thatch_C",BaseResourceRequirement=2.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_Fibers_C",BaseResourceRequirement=2.0,bCraftingRequireExactResourceType=false)))
+ConfigOverrideItemCraftingCosts=(ItemClassString="PrimalItemStructure_WoodCeilingWithTrapdoor_C",BaseCraftingResourceRequirements=(
+	(ResourceItemTypeString="PrimalItemResource_Wood_C",BaseResourceRequirement=5.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_Thatch_C",BaseResourceRequirement=2.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_Fibers_C",BaseResourceRequirement=2.0,bCraftingRequireExactResourceType=false)))
+ConfigOverrideItemCraftingCosts=(ItemClassString="PrimalItemStructure_WoodDoor_C",BaseCraftingResourceRequirements=(
+	(ResourceItemTypeString="PrimalItemResource_Wood_C",BaseResourceRequirement=2.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_Thatch_C",BaseResourceRequirement=2.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_Fibers_C",BaseResourceRequirement=2.0,bCraftingRequireExactResourceType=false)))
+ConfigOverrideItemCraftingCosts=(ItemClassString="PrimalItemStructure_WoodLadder_C",BaseCraftingResourceRequirements=(
+	(ResourceItemTypeString="PrimalItemResource_Wood_C",BaseResourceRequirement=1.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_Thatch_C",BaseResourceRequirement=2.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_Fibers_C",BaseResourceRequirement=2.0,bCraftingRequireExactResourceType=false)))
+ConfigOverrideItemCraftingCosts=(ItemClassString="PrimalItemStructure_WoodRamp_C",BaseCraftingResourceRequirements=(
+	(ResourceItemTypeString="PrimalItemResource_Wood_C",BaseResourceRequirement=4.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_Thatch_C",BaseResourceRequirement=2.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_Fibers_C",BaseResourceRequirement=2.0,bCraftingRequireExactResourceType=false)))
+ConfigOverrideItemCraftingCosts=(ItemClassString="PrimalItemStructure_WoodTrapdoor_C",BaseCraftingResourceRequirements=(
+	(ResourceItemTypeString="PrimalItemResource_Wood_C",BaseResourceRequirement=2.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_Thatch_C",BaseResourceRequirement=2.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_Fibers_C",BaseResourceRequirement=2.0,bCraftingRequireExactResourceType=false)))
+ConfigOverrideItemCraftingCosts=(ItemClassString="PrimalItemStructure_WoodWallWithDoor_C",BaseCraftingResourceRequirements=(
+	(ResourceItemTypeString="PrimalItemResource_Wood_C",BaseResourceRequirement=3.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_Thatch_C",BaseResourceRequirement=2.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_Fibers_C",BaseResourceRequirement=2.0,bCraftingRequireExactResourceType=false)))
+ConfigOverrideItemCraftingCosts=(ItemClassString="PrimalItemStructure_WoodWallWithWindow_C",BaseCraftingResourceRequirements=(
+	(ResourceItemTypeString="PrimalItemResource_Wood_C",BaseResourceRequirement=4.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_Thatch_C",BaseResourceRequirement=2.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_Fibers_C",BaseResourceRequirement=2.0,bCraftingRequireExactResourceType=false)))
+ConfigOverrideItemCraftingCosts=(ItemClassString="PrimalItemStructure_WoodWindow_C",BaseCraftingResourceRequirements=(
+	(ResourceItemTypeString="PrimalItemResource_Wood_C",BaseResourceRequirement=1.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_Thatch_C",BaseResourceRequirement=2.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_Fibers_C",BaseResourceRequirement=2.0,bCraftingRequireExactResourceType=false)))
+ConfigOverrideItemCraftingCosts=(ItemClassString="PrimalItemStructure_WoodSign_C",BaseCraftingResourceRequirements=(
+	(ResourceItemTypeString="PrimalItemResource_Wood_C",BaseResourceRequirement=1.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_Thatch_C",BaseResourceRequirement=2.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_Fibers_C",BaseResourceRequirement=2.0,bCraftingRequireExactResourceType=false)))
+ConfigOverrideItemCraftingCosts=(ItemClassString="PrimalItemStructure_WoodFenceFoundation_C",BaseCraftingResourceRequirements=(
+	(ResourceItemTypeString="PrimalItemResource_Wood_C",BaseResourceRequirement=1.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_Thatch_C",BaseResourceRequirement=2.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_Fibers_C",BaseResourceRequirement=2.0,bCraftingRequireExactResourceType=false)))
+ConfigOverrideItemCraftingCosts=(ItemClassString="PrimalItemStructure_WoodGateframe_C",BaseCraftingResourceRequirements=(
+	(ResourceItemTypeString="PrimalItemResource_Wood_C",BaseResourceRequirement=50.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_Stone_C",BaseResourceRequirement=20.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_Thatch_C",BaseResourceRequirement=20.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_Fibers_C",BaseResourceRequirement=20.0,bCraftingRequireExactResourceType=false)))
+ConfigOverrideItemCraftingCosts=(ItemClassString="PrimalItemStructure_WoodGate_C",BaseCraftingResourceRequirements=(
+	(ResourceItemTypeString="PrimalItemResource_Wood_C",BaseResourceRequirement=25.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_Thatch_C",BaseResourceRequirement=10.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_Fibers_C",BaseResourceRequirement=10.0,bCraftingRequireExactResourceType=false)))
+ConfigOverrideItemCraftingCosts=(ItemClassString="PrimalItemStructure_WoodSign_Large_C",BaseCraftingResourceRequirements=(
+	(ResourceItemTypeString="PrimalItemResource_Wood_C",BaseResourceRequirement=6.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_Thatch_C",BaseResourceRequirement=2.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_Fibers_C",BaseResourceRequirement=2.0,bCraftingRequireExactResourceType=false)))
+ConfigOverrideItemCraftingCosts=(ItemClassString="PrimalItemStructure_WoodSign_Wall_C",BaseCraftingResourceRequirements=(
+	(ResourceItemTypeString="PrimalItemResource_Wood_C",BaseResourceRequirement=1.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_Thatch_C",BaseResourceRequirement=2.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_Fibers_C",BaseResourceRequirement=2.0,bCraftingRequireExactResourceType=false)))
+ConfigOverrideItemCraftingCosts=(ItemClassString="PrimalItemStructure_WoodRoof_C",BaseCraftingResourceRequirements=(
+	(ResourceItemTypeString="PrimalItemResource_Wood_C",BaseResourceRequirement=6.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_Thatch_C",BaseResourceRequirement=2.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_Fibers_C",BaseResourceRequirement=2.0,bCraftingRequireExactResourceType=false)))
+ConfigOverrideItemCraftingCosts=(ItemClassString="PrimalItemStructure_WoodWall_Sloped_Left_C",BaseCraftingResourceRequirements=(
+	(ResourceItemTypeString="PrimalItemResource_Wood_C",BaseResourceRequirement=2.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_Thatch_C",BaseResourceRequirement=2.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_Fibers_C",BaseResourceRequirement=2.0,bCraftingRequireExactResourceType=false)))
+ConfigOverrideItemCraftingCosts=(ItemClassString="PrimalItemStructure_WoodWall_Sloped_Right_C",BaseCraftingResourceRequirements=(
+	(ResourceItemTypeString="PrimalItemResource_Wood_C",BaseResourceRequirement=2.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_Thatch_C",BaseResourceRequirement=2.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_Fibers_C",BaseResourceRequirement=2.0,bCraftingRequireExactResourceType=false)))
+ConfigOverrideItemCraftingCosts=(ItemClassString="PrimalItemStructure_WoodRailing_C",BaseCraftingResourceRequirements=(
+	(ResourceItemTypeString="PrimalItemResource_Wood_C",BaseResourceRequirement=2.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_Thatch_C",BaseResourceRequirement=2.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_Fibers_C",BaseResourceRequirement=2.0,bCraftingRequireExactResourceType=false)))
+ConfigOverrideItemCraftingCosts=(ItemClassString="PrimalItemStructure_WoodCage_C",BaseCraftingResourceRequirements=(
+	(ResourceItemTypeString="PrimalItemResource_Wood_C",BaseResourceRequirement=11.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_Thatch_C",BaseResourceRequirement=2.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_Fibers_C",BaseResourceRequirement=2.0,bCraftingRequireExactResourceType=false)))
+ConfigOverrideItemCraftingCosts=(ItemClassString="PrimalItemStructure_WoodStairs_C",BaseCraftingResourceRequirements=(
+	(ResourceItemTypeString="PrimalItemResource_Wood_C",BaseResourceRequirement=5.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_Thatch_C",BaseResourceRequirement=2.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_Fibers_C",BaseResourceRequirement=2.0,bCraftingRequireExactResourceType=false)))
+ConfigOverrideItemCraftingCosts=(ItemClassString="PrimalItemStructure_WoodPillar_C",BaseCraftingResourceRequirements=(
+	(ResourceItemTypeString="PrimalItemResource_Wood_C",BaseResourceRequirement=1.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_Thatch_C",BaseResourceRequirement=1.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_Fibers_C",BaseResourceRequirement=1.0,bCraftingRequireExactResourceType=false)))
+ConfigOverrideItemCraftingCosts=(ItemClassString="PrimalItemStructure_Ramp_Wood_C",BaseCraftingResourceRequirements=(
+	(ResourceItemTypeString="PrimalItemResource_Wood_C",BaseResourceRequirement=2.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_Thatch_C",BaseResourceRequirement=1.0,bCraftingRequireExactResourceType=false)))
+ConfigOverrideItemCraftingCosts=(ItemClassString="PrimalItemStructure_TreePlatform_Wood_C",BaseCraftingResourceRequirements=(
+  (ResourceItemTypeString="PrimalItemResource_Wood_C",BaseResourceRequirement=20.0,bCraftingRequireExactResourceType=false),
+  (ResourceItemTypeString="PrimalItemResource_MetalIngot_C",BaseResourceRequirement=2.0,bCraftingRequireExactResourceType=false),
+  (ResourceItemTypeString="PrimalItemResource_ChitinPaste_C",BaseResourceRequirement=5.0,bCraftingRequireExactResourceType=false),
+  (ResourceItemTypeString="PrimalItemResource_Fibers_C",BaseResourceRequirement=50.0,bCraftingRequireExactResourceType=false)))
+
+; -- Stone_Structures ()
+ConfigOverrideItemCraftingCosts=(ItemClassString="PrimalItemStructure_StoneFenceFoundation_C",BaseCraftingResourceRequirements=(
+	(ResourceItemTypeString="PrimalItemResource_Stone_C",BaseResourceRequirement=1.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_Wood_C",BaseResourceRequirement=1.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_Thatch_C",BaseResourceRequirement=2.0,bCraftingRequireExactResourceType=false)))
+ConfigOverrideItemCraftingCosts=(ItemClassString="PrimalItemStructure_StoneWall_C",BaseCraftingResourceRequirements=(
+	(ResourceItemTypeString="PrimalItemResource_Stone_C",BaseResourceRequirement=4.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_Wood_C",BaseResourceRequirement=2.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_Thatch_C",BaseResourceRequirement=2.0,bCraftingRequireExactResourceType=false)))
+ConfigOverrideItemCraftingCosts=(ItemClassString="PrimalItemStructure_StoneCeiling_C",BaseCraftingResourceRequirements=(
+	(ResourceItemTypeString="PrimalItemResource_Stone_C",BaseResourceRequirement=4.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_Wood_C",BaseResourceRequirement=3.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_Thatch_C",BaseResourceRequirement=2.0,bCraftingRequireExactResourceType=false)))
+ConfigOverrideItemCraftingCosts=(ItemClassString="PrimalItemStructure_StoneWallWithWindow_C",BaseCraftingResourceRequirements=(
+	(ResourceItemTypeString="PrimalItemResource_Stone_C",BaseResourceRequirement=4.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_Wood_C",BaseResourceRequirement=2.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_Thatch_C",BaseResourceRequirement=2.0,bCraftingRequireExactResourceType=false)))
+ConfigOverrideItemCraftingCosts=(ItemClassString="PrimalItemStructure_StoneCeilingWithTrapdoor_C",BaseCraftingResourceRequirements=(
+	(ResourceItemTypeString="PrimalItemResource_Stone_C",BaseResourceRequirement=4.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_Wood_C",BaseResourceRequirement=3.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_Thatch_C",BaseResourceRequirement=2.0,bCraftingRequireExactResourceType=false)))
+ConfigOverrideItemCraftingCosts=(ItemClassString="PrimalItemStructure_StoneDoor_C",BaseCraftingResourceRequirements=(
+	(ResourceItemTypeString="PrimalItemResource_Stone_C",BaseResourceRequirement=2.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_Wood_C",BaseResourceRequirement=2.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_Thatch_C",BaseResourceRequirement=2.0,bCraftingRequireExactResourceType=false)))
+ConfigOverrideItemCraftingCosts=(ItemClassString="PrimalItemStructure_StoneFloor_C",BaseCraftingResourceRequirements=(
+	(ResourceItemTypeString="PrimalItemResource_Stone_C",BaseResourceRequirement=6.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_Wood_C",BaseResourceRequirement=4.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_Thatch_C",BaseResourceRequirement=2.0,bCraftingRequireExactResourceType=false)))
+ConfigOverrideItemCraftingCosts=(ItemClassString="PrimalItemStructure_StoneGate_C",BaseCraftingResourceRequirements=(
+	(ResourceItemTypeString="PrimalItemResource_Stone_C",BaseResourceRequirement=40.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_Wood_C",BaseResourceRequirement=20.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_Thatch_C",BaseResourceRequirement=15.0,bCraftingRequireExactResourceType=false)))
+ConfigOverrideItemCraftingCosts=(ItemClassString="PrimalItemStructure_StoneGateframe_C",BaseCraftingResourceRequirements=(
+	(ResourceItemTypeString="PrimalItemResource_Stone_C",BaseResourceRequirement=75.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_Wood_C",BaseResourceRequirement=50.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_Thatch_C",BaseResourceRequirement=25.0,bCraftingRequireExactResourceType=false)))
+ConfigOverrideItemCraftingCosts=(ItemClassString="PrimalItemStructure_StonePillar_C",BaseCraftingResourceRequirements=(
+	(ResourceItemTypeString="PrimalItemResource_Stone_C",BaseResourceRequirement=5.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_Wood_C",BaseResourceRequirement=2.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_Thatch_C",BaseResourceRequirement=2.0,bCraftingRequireExactResourceType=false)))
+ConfigOverrideItemCraftingCosts=(ItemClassString="PrimalItemStructure_StoneWallWithDoor_C",BaseCraftingResourceRequirements=(
+	(ResourceItemTypeString="PrimalItemResource_Stone_C",BaseResourceRequirement=4.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_Wood_C",BaseResourceRequirement=2.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_Thatch_C",BaseResourceRequirement=2.0,bCraftingRequireExactResourceType=false)))
+ConfigOverrideItemCraftingCosts=(ItemClassString="PrimalItemStructure_StoneWindow_C",BaseCraftingResourceRequirements=(
+	(ResourceItemTypeString="PrimalItemResource_Stone_C",BaseResourceRequirement=4.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_Wood_C",BaseResourceRequirement=1.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_Thatch_C",BaseResourceRequirement=2.0,bCraftingRequireExactResourceType=false)))
+ConfigOverrideItemCraftingCosts=(ItemClassString="PrimalItemStructure_StoneTrapdoor_C",BaseCraftingResourceRequirements=(
+	(ResourceItemTypeString="PrimalItemResource_Stone_C",BaseResourceRequirement=4.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_Wood_C",BaseResourceRequirement=2.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_Thatch_C",BaseResourceRequirement=2.0,bCraftingRequireExactResourceType=false)))
+ConfigOverrideItemCraftingCosts=(ItemClassString="PrimalItemStructure_StoneGateway_Large_C",BaseCraftingResourceRequirements=(
+	(ResourceItemTypeString="PrimalItemResource_Stone_C",BaseResourceRequirement=100.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_Wood_C",BaseResourceRequirement=100.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_Thatch_C",BaseResourceRequirement=100.0,bCraftingRequireExactResourceType=false)))
+ConfigOverrideItemCraftingCosts=(ItemClassString="PrimalItemStructure_StoneGateLarge_C",BaseCraftingResourceRequirements=(
+	(ResourceItemTypeString="PrimalItemResource_Stone_C",BaseResourceRequirement=50.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_Wood_C",BaseResourceRequirement=50.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_Thatch_C",BaseResourceRequirement=50.0,bCraftingRequireExactResourceType=false)))
+ConfigOverrideItemCraftingCosts=(ItemClassString="PrimalItemStructure_StoneRoof_C",BaseCraftingResourceRequirements=(
+	(ResourceItemTypeString="PrimalItemResource_Stone_C",BaseResourceRequirement=4.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_Wood_C",BaseResourceRequirement=3.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_Thatch_C",BaseResourceRequirement=2.0,bCraftingRequireExactResourceType=false)))
+ConfigOverrideItemCraftingCosts=(ItemClassString="PrimalItemStructure_StoneWall_Sloped_left_C",BaseCraftingResourceRequirements=(
+	(ResourceItemTypeString="PrimalItemResource_Stone_C",BaseResourceRequirement=5.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_Wood_C",BaseResourceRequirement=1.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_Thatch_C",BaseResourceRequirement=2.0,bCraftingRequireExactResourceType=false)))
+ConfigOverrideItemCraftingCosts=(ItemClassString="PrimalItemStructure_StoneWall_Sloped_Right_C",BaseCraftingResourceRequirements=(
+	(ResourceItemTypeString="PrimalItemResource_Stone_C",BaseResourceRequirement=5.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_Wood_C",BaseResourceRequirement=1.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_Thatch_C",BaseResourceRequirement=2.0,bCraftingRequireExactResourceType=false)))
+ConfigOverrideItemCraftingCosts=(ItemClassString="PrimalItemStructure_StoneRailing_C",BaseCraftingResourceRequirements=(
+	(ResourceItemTypeString="PrimalItemResource_Stone_C",BaseResourceRequirement=5.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_Wood_C",BaseResourceRequirement=1.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_Thatch_C",BaseResourceRequirement=2.0,bCraftingRequireExactResourceType=false)))
+ConfigOverrideItemCraftingCosts=(ItemClassString="PrimalItemStructure_StoneStairs_C",BaseCraftingResourceRequirements=(
+	(ResourceItemTypeString="PrimalItemResource_Stone_C",BaseResourceRequirement=5.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_Wood_C",BaseResourceRequirement=5.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_Thatch_C",BaseResourceRequirement=2.0,bCraftingRequireExactResourceType=false)))
+ConfigOverrideItemCraftingCosts=(ItemClassString="PrimalItemStructure_StoneCeilingWithTrapdoorGiant_C",BaseCraftingResourceRequirements=(
+	(ResourceItemTypeString="PrimalItemResource_Stone_C",BaseResourceRequirement=5.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_Wood_C",BaseResourceRequirement=20.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_Thatch_C",BaseResourceRequirement=2.0,bCraftingRequireExactResourceType=false)))
+ConfigOverrideItemCraftingCosts=(ItemClassString="PrimalItemStructure_StoneCeilingDoorGiant_C",BaseCraftingResourceRequirements=(
+	(ResourceItemTypeString="PrimalItemResource_Stone_C",BaseResourceRequirement=20.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_Wood_C",BaseResourceRequirement=20.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_Thatch_C",BaseResourceRequirement=20.0,bCraftingRequireExactResourceType=false)))
+ConfigOverrideItemCraftingCosts=(ItemClassString="PrimalItemStructure_StoneStairs_C",BaseCraftingResourceRequirements=(
+	(ResourceItemTypeString="PrimalItemResource_Stone_C",BaseResourceRequirement=5.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_Wood_C",BaseResourceRequirement=2.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_Thatch_C",BaseResourceRequirement=1.0,bCraftingRequireExactResourceType=false)))
+ConfigOverrideItemCraftingCosts=(ItemClassString="PrimalItemStructure_Ramp_Stone_C",BaseCraftingResourceRequirements=(
+	(ResourceItemTypeString="PrimalItemResource_Stone_C",BaseResourceRequirement=5.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_Wood_C",BaseResourceRequirement=2.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_Thatch_C",BaseResourceRequirement=1.0,bCraftingRequireExactResourceType=false)))
+
+; -- Crafting_Materials ()
+ConfigOverrideItemCraftingCosts=(ItemClassString="PrimalItemResource_Polymer_C",BaseCraftingResourceRequirements=(
+	(ResourceItemTypeString="PrimalItemResource_Obsidian_C",BaseResourceRequirement=1.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_ChitinPaste_C",BaseResourceRequirement=1.0,bCraftingRequireExactResourceType=false)))
+ConfigOverrideItemCraftingCosts=(ItemClassString="PrimalItemResource_Electronics_C",BaseCraftingResourceRequirements=(
+	(ResourceItemTypeString="PrimalItemResource_Silicon_C",BaseResourceRequirement=2.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_MetalIngot_C",BaseResourceRequirement=1.0,bCraftingRequireExactResourceType=false)))
+ConfigOverrideItemCraftingCosts=(ItemClassString="PrimalItemResource_Gasoline_C",BaseCraftingResourceRequirements=(
+	(ResourceItemTypeString="PrimalItemResource_Hide_C",BaseResourceRequirement=2.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_Oil_C",BaseResourceRequirement=3.0,bCraftingRequireExactResourceType=false)))
+ConfigOverrideItemCraftingCosts=(ItemClassString="PrimalItemResource_ChitinPaste_C",BaseCraftingResourceRequirements=(
+	(ResourceItemTypeString="PrimalItemResource_Chitin_C",BaseResourceRequirement=2.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_Stone_C",BaseResourceRequirement=4.0,bCraftingRequireExactResourceType=false)))
+
+; -- Armor (Chitin)
+ConfigOverrideItemCraftingCosts=(ItemClassString="PrimalItemArmor_ChitinPants_C",BaseCraftingResourceRequirements=(
+	(ResourceItemTypeString="PrimalItemResource_Hide_C",BaseResourceRequirement=22.0,bCraftingRequireExactResourceType=false),
+  (ResourceItemTypeString="PrimalItemResource_Chitin_C",BaseResourceRequirement=5.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_Fibers_C",BaseResourceRequirement=5.0,bCraftingRequireExactResourceType=false)))
+ConfigOverrideItemCraftingCosts=(ItemClassString="PrimalItemArmor_ChitinShirt_C",BaseCraftingResourceRequirements=(
+	(ResourceItemTypeString="PrimalItemResource_Hide_C",BaseResourceRequirement=30.0,bCraftingRequireExactResourceType=false),
+  (ResourceItemTypeString="PrimalItemResource_Chitin_C",BaseResourceRequirement=5.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_Fibers_C",BaseResourceRequirement=4.0,bCraftingRequireExactResourceType=false)))
+ConfigOverrideItemCraftingCosts=(ItemClassString="PrimalItemArmor_ChitinHelmet_C",BaseCraftingResourceRequirements=(
+	(ResourceItemTypeString="PrimalItemResource_Hide_C",BaseResourceRequirement=22.0,bCraftingRequireExactResourceType=false),
+  (ResourceItemTypeString="PrimalItemResource_Chitin_C",BaseResourceRequirement=5.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_Fibers_C",BaseResourceRequirement=3.0,bCraftingRequireExactResourceType=false)))
+ConfigOverrideItemCraftingCosts=(ItemClassString="PrimalItemArmor_ChitinBoots_C",BaseCraftingResourceRequirements=(
+	(ResourceItemTypeString="PrimalItemResource_Hide_C",BaseResourceRequirement=18.0,bCraftingRequireExactResourceType=false),
+  (ResourceItemTypeString="PrimalItemResource_Chitin_C",BaseResourceRequirement=5.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_Fibers_C",BaseResourceRequirement=4.0,bCraftingRequireExactResourceType=false)))
+ConfigOverrideItemCraftingCosts=(ItemClassString="PrimalItemArmor_ChitinGloves_C",BaseCraftingResourceRequirements=(
+	(ResourceItemTypeString="PrimalItemResource_Hide_C",BaseResourceRequirement=15.0,bCraftingRequireExactResourceType=false),
+  (ResourceItemTypeString="PrimalItemResource_Chitin_C",BaseResourceRequirement=5.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_Fibers_C",BaseResourceRequirement=2.0,bCraftingRequireExactResourceType=false)))
+; -- Armor (Metal)
+ConfigOverrideItemCraftingCosts=(ItemClassString="PrimalItemArmor_MetalPants_C",BaseCraftingResourceRequirements=(
+	(ResourceItemTypeString="PrimalItemResource_MetalIngot_C",BaseResourceRequirement=7.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_Hide_C",BaseResourceRequirement=12.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_Fibers_C",BaseResourceRequirement=100.0,bCraftingRequireExactResourceType=false)))
+ConfigOverrideItemCraftingCosts=(ItemClassString="PrimalItemArmor_MetalShirt_C",BaseCraftingResourceRequirements=(
+	(ResourceItemTypeString="PrimalItemResource_MetalIngot_C",BaseResourceRequirement=10.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_Hide_C",BaseResourceRequirement=10.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_Fibers_C",BaseResourceRequirement=100.0,bCraftingRequireExactResourceType=false)))
+ConfigOverrideItemCraftingCosts=(ItemClassString="PrimalItemArmor_MetalBoots_C",BaseCraftingResourceRequirements=(
+	(ResourceItemTypeString="PrimalItemResource_MetalIngot_C",BaseResourceRequirement=4.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_Hide_C",BaseResourceRequirement=4.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_Fibers_C",BaseResourceRequirement=100.0,bCraftingRequireExactResourceType=false)))
+ConfigOverrideItemCraftingCosts=(ItemClassString="PrimalItemArmor_MetalGloves_C",BaseCraftingResourceRequirements=(
+	(ResourceItemTypeString="PrimalItemResource_MetalIngot_C",BaseResourceRequirement=3.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_Hide_C",BaseResourceRequirement=5.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_Fibers_C",BaseResourceRequirement=100.0,bCraftingRequireExactResourceType=false)))
+ConfigOverrideItemCraftingCosts=(ItemClassString="PrimalItemArmor_MetalHelmet_C",BaseCraftingResourceRequirements=(
+	(ResourceItemTypeString="PrimalItemResource_MetalIngot_C",BaseResourceRequirement=4.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_Hide_C",BaseResourceRequirement=7.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_Fibers_C",BaseResourceRequirement=100.0,bCraftingRequireExactResourceType=false)))
+ConfigOverrideItemCraftingCosts=(ItemClassString="PrimalItemArmor_MetalShield_C",BaseCraftingResourceRequirements=(
+	(ResourceItemTypeString="PrimalItemResource_MetalIngot_C",BaseResourceRequirement=32.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_Wood_C",BaseResourceRequirement=1.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_Hide_C",BaseResourceRequirement=15.0,bCraftingRequireExactResourceType=false)))
+
+; -- Ammo_Simple ()
+ConfigOverrideItemCraftingCosts=(ItemClassString="PrimalItemAmmo_SimpleBullet_C",BaseCraftingResourceRequirements=(
+	(ResourceItemTypeString="PrimalItemResource_MetalIngot_C",BaseResourceRequirement=1.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_Gunpowder_C",BaseResourceRequirement=2.0,bCraftingRequireExactResourceType=false)))
+ConfigOverrideItemCraftingCosts=(ItemClassString="PrimalItemAmmo_SimpleRifleBullet_C",BaseCraftingResourceRequirements=(
+	(ResourceItemTypeString="PrimalItemResource_MetalIngot_C",BaseResourceRequirement=1.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_Gunpowder_C",BaseResourceRequirement=2.0,bCraftingRequireExactResourceType=false)))
+ConfigOverrideItemCraftingCosts=(ItemClassString="PrimalItemAmmo_SimpleShotgunBullet_C",BaseCraftingResourceRequirements=(
+  (ResourceItemTypeString="PrimalItemResource_MetalIngot_C",BaseResourceRequirement=1.0,bCraftingRequireExactResourceType=false),
+  (ResourceItemTypeString="PrimalItemResource_Gunpowder_C",BaseResourceRequirement=2.0,bCraftingRequireExactResourceType=false)))
+ConfigOverrideItemCraftingCosts=(ItemClassString="PrimalItemAmmo_BallistaArrow_C",BaseCraftingResourceRequirements=(
+	(ResourceItemTypeString="PrimalItemResource_MetalIngot_C",BaseResourceRequirement=3.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_Wood_C",BaseResourceRequirement=14.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_Thatch_C",BaseResourceRequirement=20.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_Flint_C",BaseResourceRequirement=5.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_Fibers_C",BaseResourceRequirement=20.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_Wood_C",BaseResourceRequirement=1.0,bCraftingRequireExactResourceType=false)))
+ConfigOverrideItemCraftingCosts=(ItemClassString="PrimalItemAmmo_TranqDart_C",BaseCraftingResourceRequirements=(
+	(ResourceItemTypeString="PrimalItemConsumable_Narcotic_C",BaseResourceRequirement=3.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemAmmo_SimpleRifleBullet_C",BaseResourceRequirement=1.0,bCraftingRequireExactResourceType=false)))
+; -- Ammo_Misc()
+ConfigOverrideItemCraftingCosts=(ItemClassString="PrimalItemAmmo_ChainBola_C",BaseCraftingResourceRequirements=(
+	(ResourceItemTypeString="PrimalItemResource_MetalIngot_C",BaseResourceRequirement=10.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_Wood_C",BaseResourceRequirement=50.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_Obsidian_C",BaseResourceRequirement=2.0,bCraftingRequireExactResourceType=false)))
+ConfigOverrideItemCraftingCosts=(ItemClassString="PrimalItemAmmo_Boulder_C",BaseCraftingResourceRequirements=(
+	(ResourceItemTypeString="PrimalItemResource_Stone_C",BaseResourceRequirement=30.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_MetalIngot_C",BaseResourceRequirement=1.0,bCraftingRequireExactResourceType=false)))
+ConfigOverrideItemCraftingCosts=(ItemClassString="PrimalItemAmmo_GrapplingHook_C",BaseCraftingResourceRequirements=(
+	(ResourceItemTypeString="PrimalItemAmmo_ArrowStone_C",BaseResourceRequirement=3.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_Wood_C",BaseResourceRequirement=1.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_MetalIngot_C",BaseResourceRequirement=4.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_Thatch_C",BaseResourceRequirement=2.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_Fibers_C",BaseResourceRequirement=35.0,bCraftingRequireExactResourceType=false)))
+; -- Ammo_Advanced ()
+ConfigOverrideItemCraftingCosts=(ItemClassString="PrimalItemAmmo_AdvancedBullet_C",BaseCraftingResourceRequirements=(
+	(ResourceItemTypeString="PrimalItemResource_MetalIngot_C",BaseResourceRequirement=1.0,bCraftingRequireExactResourceType=false),
+  (ResourceItemTypeString="PrimalItemResource_Gunpowder_C",BaseResourceRequirement=2.0,bCraftingRequireExactResourceType=false)))
+ConfigOverrideItemCraftingCosts=(ItemClassString="PrimalItemAmmo_AdvancedRifleBullet_C",BaseCraftingResourceRequirements=(
+	(ResourceItemTypeString="PrimalItemResource_MetalIngot_C",BaseResourceRequirement=1.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_Gunpowder_C",BaseResourceRequirement=2.0,bCraftingRequireExactResourceType=false)))
+ConfigOverrideItemCraftingCosts=(ItemClassString="PrimalItemAmmo_AdvancedSniperBullet_C",BaseCraftingResourceRequirements=(
+	(ResourceItemTypeString="PrimalItemResource_MetalIngot_C",BaseResourceRequirement=1.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_Gunpowder_C",BaseResourceRequirement=2.0,bCraftingRequireExactResourceType=false)))
+ConfigOverrideItemCraftingCosts=(ItemClassString="PrimalItemAmmo_CompoundBowArrow_C",BaseCraftingResourceRequirements=(
+	(ResourceItemTypeString="PrimalItemResource_Thatch_C",BaseResourceRequirement=3.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_Fibers_C",BaseResourceRequirement=3.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_MetalIngot_C",BaseResourceRequirement=2.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_Wood_C",BaseResourceRequirement=1.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_Polymer_C",BaseResourceRequirement=1.0,bCraftingRequireExactResourceType=false)))
+ConfigOverrideItemCraftingCosts=(ItemClassString="PrimalItemAmmo_Rocket_C",BaseCraftingResourceRequirements=(
+	(ResourceItemTypeString="PrimalItemResource_Gunpowder_C",BaseResourceRequirement=10.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_Crystal_C",BaseResourceRequirement=10.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_Wood_C",BaseResourceRequirement=5.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_Polymer_C",BaseResourceRequirement=10.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_MetalIngot_C",BaseResourceRequirement=3.0,bCraftingRequireExactResourceType=false)))
+ConfigOverrideItemCraftingCosts=(ItemClassString="PrimalItemAmmo_RefinedTranqDart_C",BaseCraftingResourceRequirements=(
+	(ResourceItemTypeString="PrimalItemAmmo_AdvancedSniperBullet_C",BaseResourceRequirement=1.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_MetalIngot_C",BaseResourceRequirement=1.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemAmmo_TranqDart_C",BaseResourceRequirement=1.0,bCraftingRequireExactResourceType=false)))
+
+; -- Weapons_Simple()
+ConfigOverrideItemCraftingCosts=(ItemClassString="PrimalItem_WeaponGun_C",BaseCraftingResourceRequirements=(
+	(ResourceItemTypeString="PrimalItemResource_MetalIngot_C",BaseResourceRequirement=2.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_Wood_C",BaseResourceRequirement=5.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_Hide_C",BaseResourceRequirement=15.0,bCraftingRequireExactResourceType=false)))
+ConfigOverrideItemCraftingCosts=(ItemClassString="PrimalItem_WeaponOneShotRifle_C",BaseCraftingResourceRequirements=(
+	(ResourceItemTypeString="PrimalItemResource_MetalIngot_C",BaseResourceRequirement=2.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_Wood_C",BaseResourceRequirement=20.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_Hide_C",BaseResourceRequirement=20.0,bCraftingRequireExactResourceType=false)))
+ConfigOverrideItemCraftingCosts=(ItemClassString="PrimalItem_WeaponCrossbow_C",BaseCraftingResourceRequirements=(
+	(ResourceItemTypeString="PrimalItemResource_MetalIngot_C",BaseResourceRequirement=1.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_Wood_C",BaseResourceRequirement=2.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_Fibers_C",BaseResourceRequirement=2.0,bCraftingRequireExactResourceType=false),
+  (ResourceItemTypeString="PrimalItemResource_Hide_C",BaseResourceRequirement=1.0,bCraftingRequireExactResourceType=false)))
+ConfigOverrideItemCraftingCosts=(ItemClassString="PrimalItem_WeaponShotgun_C",BaseCraftingResourceRequirements=(
+	(ResourceItemTypeString="PrimalItemResource_MetalIngot_C",BaseResourceRequirement=3.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_Wood_C",BaseResourceRequirement=5.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_Hide_C",BaseResourceRequirement=50.0,bCraftingRequireExactResourceType=false)))
+; -- Weapons_Advanced()
+ConfigOverrideItemCraftingCosts=(ItemClassString="PrimalItem_WeaponRifle_C",BaseCraftingResourceRequirements=(
+	(ResourceItemTypeString="PrimalItemResource_Polymer_C",BaseResourceRequirement=2.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_MetalIngot_C",BaseResourceRequirement=3.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_Wood_C",BaseResourceRequirement=1.0,bCraftingRequireExactResourceType=false)))
+ConfigOverrideItemCraftingCosts=(ItemClassString="PrimalItem_WeaponMachinedSniper_C",BaseCraftingResourceRequirements=(
+	(ResourceItemTypeString="PrimalItemResource_Polymer_C",BaseResourceRequirement=10.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_MetalIngot_C",BaseResourceRequirement=5.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_Wood_C",BaseResourceRequirement=1.0,bCraftingRequireExactResourceType=false)))
+ConfigOverrideItemCraftingCosts=(ItemClassString="PrimalItem_WeaponMachinedPistol_C",BaseCraftingResourceRequirements=(
+	(ResourceItemTypeString="PrimalItemResource_Polymer_C",BaseResourceRequirement=2.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_MetalIngot_C",BaseResourceRequirement=2.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_Wood_C",BaseResourceRequirement=1.0,bCraftingRequireExactResourceType=false)))
+ConfigOverrideItemCraftingCosts=(ItemClassString="PrimalItem_WeaponMachinedShotgun_C",BaseCraftingResourceRequirements=(
+	(ResourceItemTypeString="PrimalItemResource_MetalIngot_C",BaseResourceRequirement=2.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_Polymer_C",BaseResourceRequirement=2.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_Wood_C",BaseResourceRequirement=1.0,bCraftingRequireExactResourceType=false)))
+ConfigOverrideItemCraftingCosts=(ItemClassString="PrimalItem_WeaponCompoundBow_C",BaseCraftingResourceRequirements=(
+	(ResourceItemTypeString="PrimalItemResource_Polymer_C",BaseResourceRequirement=3.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_MetalIngot_C",BaseResourceRequirement=3.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_Wood_C",BaseResourceRequirement=1.0,bCraftingRequireExactResourceType=false)))
+; -- Weapons_Misc()
+ConfigOverrideItemCraftingCosts=(ItemClassString="PrimalItem_WeaponRocketLauncher_C",BaseCraftingResourceRequirements=(
+	(ResourceItemTypeString="PrimalItemResource_Polymer_C",BaseResourceRequirement=80.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_MetalIngot_C",BaseResourceRequirement=20.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_Wood_C",BaseResourceRequirement=100.0,bCraftingRequireExactResourceType=false)))
+ConfigOverrideItemCraftingCosts=(ItemClassString="PrimalItem_WeaponGrenade_C",BaseCraftingResourceRequirements=(
+	(ResourceItemTypeString="PrimalItemResource_Fibers_C",BaseResourceRequirement=15.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_Stone_C",BaseResourceRequirement=20.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_Gunpowder_C",BaseResourceRequirement=5.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_Hide_C",BaseResourceRequirement=5.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_MetalIngot_C",BaseResourceRequirement=1.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_Oil_C",BaseResourceRequirement=4.0,bCraftingRequireExactResourceType=false)))
+ConfigOverrideItemCraftingCosts=(ItemClassString="PrimalItem_WeaponC4_C",BaseCraftingResourceRequirements=(
+	(ResourceItemTypeString="PrimalItemResource_Polymer_C",BaseResourceRequirement=20.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_Electronics_C",BaseResourceRequirement=50.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_Crystal_C",BaseResourceRequirement=10.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_MetalIngot_C",BaseResourceRequirement=1.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_Wood_C",BaseResourceRequirement=1.0,bCraftingRequireExactResourceType=false)))
+
+
+; -- Consumables ()
+ConfigOverrideItemCraftingCosts=(ItemClassString="PrimalItemConsumable_HealSoup_C",BaseCraftingResourceRequirements=(
+  (ResourceItemTypeString="PrimalItemConsumable_Berry_Tintoberry_C",BaseResourceRequirement=50.0,bCraftingRequireExactResourceType=false),
+  (ResourceItemTypeString="PrimalItemConsumableEatable_WaterContainer_C",BaseResourceRequirement=1.0,bCraftingRequireExactResourceType=false)))
+; -- Misc ()
+ConfigOverrideItemCraftingCosts=(ItemClassString="PrimalItemMotorboat_C",BaseCraftingResourceRequirements=(
+  (ResourceItemTypeString="PrimalItemResource_Wood_C",BaseResourceRequirement=400.0,bCraftingRequireExactResourceType=false),
+  (ResourceItemTypeString="PrimalItemResource_Silicon_C",BaseResourceRequirement=60.0,bCraftingRequireExactResourceType=false),
+  (ResourceItemTypeString="PrimalItemResource_Chitin_C",BaseResourceRequirement=100.0,bCraftingRequireExactResourceType=false),
+  (ResourceItemTypeString="PrimalItemResource_Stone_C",BaseResourceRequirement=300.0,bCraftingRequireExactResourceType=false),
+  (ResourceItemTypeString="PrimalItemResource_Hide_C",BaseResourceRequirement=500.0,bCraftingRequireExactResourceType=false),
+  (ResourceItemTypeString="PrimalItemResource_Obsidian_C",BaseResourceRequirement=50.0,bCraftingRequireExactResourceType=false),
+  (ResourceItemTypeString="PrimalItemResource_Fibers_C",BaseResourceRequirement=1000.0,bCraftingRequireExactResourceType=false),
+  (ResourceItemTypeString="PrimalItemResource_Metal_C",BaseResourceRequirement=100.0,bCraftingRequireExactResourceType=false)))
+ConfigOverrideItemCraftingCosts=(ItemClassString="PrimalItemStructure_Bed_Modern_C",BaseCraftingResourceRequirements=(
+  (ResourceItemTypeString="PrimalItemResource_Polymer_C",BaseResourceRequirement=5.0,bCraftingRequireExactResourceType=false),
+  (ResourceItemTypeString="PrimalItemResource_Pelt_C",BaseResourceRequirement=20.0,bCraftingRequireExactResourceType=false),
+  (ResourceItemTypeString="PrimalItemResource_MetalIngot_C",BaseResourceRequirement=10.0,bCraftingRequireExactResourceType=false),
+  (ResourceItemTypeString="PrimalItemResource_Fibers_C",BaseResourceRequirement=50.0,bCraftingRequireExactResourceType=false),
+  (ResourceItemTypeString="PrimalItemResource_Hide_C",BaseResourceRequirement=10.0,bCraftingRequireExactResourceType=false)))
+; -- Misc Structures (weapons)
+ConfigOverrideItemCraftingCosts=(ItemClassString="PrimalItemStructure_TurretBallista_C",BaseCraftingResourceRequirements=(
+  (ResourceItemTypeString="PrimalItemResource_Wood_C",BaseResourceRequirement=200.0,bCraftingRequireExactResourceType=false),
+  (ResourceItemTypeString="PrimalItemResource_MetalIngot_C",BaseResourceRequirement=30.0,bCraftingRequireExactResourceType=false),
+  (ResourceItemTypeString="PrimalItemResource_Stone_C",BaseResourceRequirement=100.0,bCraftingRequireExactResourceType=false),
+  (ResourceItemTypeString="PrimalItemResource_Fibers_C",BaseResourceRequirement=300.0,bCraftingRequireExactResourceType=false),
+  (ResourceItemTypeString="PrimalItemResource_Thatch_C",BaseResourceRequirement=100.0,bCraftingRequireExactResourceType=false),
+  (ResourceItemTypeString="PrimalItemResource_Hide_C",BaseResourceRequirement=20.0,bCraftingRequireExactResourceType=false)))
