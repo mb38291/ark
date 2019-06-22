@@ -143,6 +143,7 @@ ConfigOverrideItemCraftingCosts=(ItemClassString="PrimalItemStructure_TreePlatfo
   (ResourceItemTypeString="PrimalItemResource_ChitinPaste_C",BaseResourceRequirement=5.0,bCraftingRequireExactResourceType=false),
   (ResourceItemTypeString="PrimalItemResource_Fibers_C",BaseResourceRequirement=50.0,bCraftingRequireExactResourceType=false)))
 
+
 ; -- Stone_Structures ()
 ConfigOverrideItemCraftingCosts=(ItemClassString="PrimalItemStructure_StoneFenceFoundation_C",BaseCraftingResourceRequirements=(
 	(ResourceItemTypeString="PrimalItemResource_Stone_C",BaseResourceRequirement=1.0,bCraftingRequireExactResourceType=false),
@@ -172,14 +173,6 @@ ConfigOverrideItemCraftingCosts=(ItemClassString="PrimalItemStructure_StoneFloor
 	(ResourceItemTypeString="PrimalItemResource_Stone_C",BaseResourceRequirement=6.0,bCraftingRequireExactResourceType=false),
 	(ResourceItemTypeString="PrimalItemResource_Wood_C",BaseResourceRequirement=4.0,bCraftingRequireExactResourceType=false),
 	(ResourceItemTypeString="PrimalItemResource_Thatch_C",BaseResourceRequirement=2.0,bCraftingRequireExactResourceType=false)))
-ConfigOverrideItemCraftingCosts=(ItemClassString="PrimalItemStructure_StoneGate_C",BaseCraftingResourceRequirements=(
-	(ResourceItemTypeString="PrimalItemResource_Stone_C",BaseResourceRequirement=40.0,bCraftingRequireExactResourceType=false),
-	(ResourceItemTypeString="PrimalItemResource_Wood_C",BaseResourceRequirement=20.0,bCraftingRequireExactResourceType=false),
-	(ResourceItemTypeString="PrimalItemResource_Thatch_C",BaseResourceRequirement=15.0,bCraftingRequireExactResourceType=false)))
-ConfigOverrideItemCraftingCosts=(ItemClassString="PrimalItemStructure_StoneGateframe_C",BaseCraftingResourceRequirements=(
-	(ResourceItemTypeString="PrimalItemResource_Stone_C",BaseResourceRequirement=75.0,bCraftingRequireExactResourceType=false),
-	(ResourceItemTypeString="PrimalItemResource_Wood_C",BaseResourceRequirement=50.0,bCraftingRequireExactResourceType=false),
-	(ResourceItemTypeString="PrimalItemResource_Thatch_C",BaseResourceRequirement=25.0,bCraftingRequireExactResourceType=false)))
 ConfigOverrideItemCraftingCosts=(ItemClassString="PrimalItemStructure_StonePillar_C",BaseCraftingResourceRequirements=(
 	(ResourceItemTypeString="PrimalItemResource_Stone_C",BaseResourceRequirement=5.0,bCraftingRequireExactResourceType=false),
 	(ResourceItemTypeString="PrimalItemResource_Wood_C",BaseResourceRequirement=2.0,bCraftingRequireExactResourceType=false),
@@ -196,14 +189,6 @@ ConfigOverrideItemCraftingCosts=(ItemClassString="PrimalItemStructure_StoneTrapd
 	(ResourceItemTypeString="PrimalItemResource_Stone_C",BaseResourceRequirement=4.0,bCraftingRequireExactResourceType=false),
 	(ResourceItemTypeString="PrimalItemResource_Wood_C",BaseResourceRequirement=2.0,bCraftingRequireExactResourceType=false),
 	(ResourceItemTypeString="PrimalItemResource_Thatch_C",BaseResourceRequirement=2.0,bCraftingRequireExactResourceType=false)))
-ConfigOverrideItemCraftingCosts=(ItemClassString="PrimalItemStructure_StoneGateway_Large_C",BaseCraftingResourceRequirements=(
-	(ResourceItemTypeString="PrimalItemResource_Stone_C",BaseResourceRequirement=100.0,bCraftingRequireExactResourceType=false),
-	(ResourceItemTypeString="PrimalItemResource_Wood_C",BaseResourceRequirement=100.0,bCraftingRequireExactResourceType=false),
-	(ResourceItemTypeString="PrimalItemResource_Thatch_C",BaseResourceRequirement=100.0,bCraftingRequireExactResourceType=false)))
-ConfigOverrideItemCraftingCosts=(ItemClassString="PrimalItemStructure_StoneGateLarge_C",BaseCraftingResourceRequirements=(
-	(ResourceItemTypeString="PrimalItemResource_Stone_C",BaseResourceRequirement=50.0,bCraftingRequireExactResourceType=false),
-	(ResourceItemTypeString="PrimalItemResource_Wood_C",BaseResourceRequirement=50.0,bCraftingRequireExactResourceType=false),
-	(ResourceItemTypeString="PrimalItemResource_Thatch_C",BaseResourceRequirement=50.0,bCraftingRequireExactResourceType=false)))
 ConfigOverrideItemCraftingCosts=(ItemClassString="PrimalItemStructure_StoneRoof_C",BaseCraftingResourceRequirements=(
 	(ResourceItemTypeString="PrimalItemResource_Stone_C",BaseResourceRequirement=4.0,bCraftingRequireExactResourceType=false),
 	(ResourceItemTypeString="PrimalItemResource_Wood_C",BaseResourceRequirement=3.0,bCraftingRequireExactResourceType=false),
@@ -240,6 +225,14 @@ ConfigOverrideItemCraftingCosts=(ItemClassString="PrimalItemStructure_Ramp_Stone
 	(ResourceItemTypeString="PrimalItemResource_Stone_C",BaseResourceRequirement=5.0,bCraftingRequireExactResourceType=false),
 	(ResourceItemTypeString="PrimalItemResource_Wood_C",BaseResourceRequirement=2.0,bCraftingRequireExactResourceType=false),
 	(ResourceItemTypeString="PrimalItemResource_Thatch_C",BaseResourceRequirement=1.0,bCraftingRequireExactResourceType=false)))
+ConfigOverrideItemCraftingCosts=(ItemClassString="PrimalItemStructure_StoneGateframe_Large",BaseCraftingResourceRequirements=(
+	(ResourceItemTypeString="PrimalItemResource_Stone_C",BaseResourceRequirement=150.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_Wood_C",BaseResourceRequirement=150.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_Thatch_C",BaseResourceRequirement=150.0,bCraftingRequireExactResourceType=false)))
+ConfigOverrideItemCraftingCosts=(ItemClassString="PrimalItemStructure_StoneGateLarge",BaseCraftingResourceRequirements=(
+	(ResourceItemTypeString="PrimalItemResource_Stone_C",BaseResourceRequirement=50.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_Wood_C",BaseResourceRequirement=50.0,bCraftingRequireExactResourceType=false),
+	(ResourceItemTypeString="PrimalItemResource_Thatch_C",BaseResourceRequirement=50.0,bCraftingRequireExactResourceType=false)))
 
 ; -- Crafting_Materials ()
 ConfigOverrideItemCraftingCosts=(ItemClassString="PrimalItemResource_Polymer_C",BaseCraftingResourceRequirements=(
