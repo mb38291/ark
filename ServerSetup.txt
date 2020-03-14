@@ -1,0 +1,46 @@
+Server Setup
+
+[ Create arkserver user ]
+  
+  adduser ark
+
+[ Adjust filesystem settings ]
+
+  echo "fs.file-max=100000" >> /etc/sysctl.conf && sysctl -p
+  echo "* soft nofile 1000000" >> /etc/security/limits.conf
+  echo "* hard nofile 1000000" >> /etc/security/limits.conf
+  echo "session required pam_limits.so" >> /etc/pam.d/common-session
+
+[ Update apt ]
+
+  /etc/apt/sources.list
+    deb http://mirrors.linode.com/debian stretch main non-free
+    deb-src http://mirrors.linode.com/debian stretch main non-free
+
+[ Install steamcmd ]
+
+  dpkg --add-architecture i386
+  apt update
+  apt-get install steamcmd
+
+[ Symlink into arkserver home ]
+
+  ln -s /usr/games/steamcmd steamcmd
+
+[ Install ark ]
+
+  su - 
+  steamcmd +login anonymous +force_install_dir /home/arkserver/server +app_update 376030 +quit
+
+[ Update settings ]
+
+  mkdir -p /home/arkserver/server/ShooterGame/Saved/Config/LinuxServer
+  [Copy Game.ini and GameUserSettings.ini into LinuxServer]
+
+[ Create service entry ]
+  [ Copy ark.server into /lib/systemd/system ]
+
+[ Change ownership ]
+  cd /home/arkserver
+  chown -R arkserver *
+  chgrp -R arkserver *
