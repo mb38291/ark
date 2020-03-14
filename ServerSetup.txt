@@ -1,5 +1,12 @@
 Server Setup
 
+[ Port Forward ]
+
+TCP+UDP 27015, 7777, 7778
+
+[ Misc Packages ]
+apt install vim htop net-tools
+
 [ Create arkserver user ]
   
   adduser ark
@@ -37,10 +44,16 @@ Server Setup
   mkdir -p /home/arkserver/server/ShooterGame/Saved/Config/LinuxServer
   [Copy Game.ini and GameUserSettings.ini into LinuxServer]
 
-[ Create service entry ]
-  [ Copy ark.server into /lib/systemd/system ]
-
 [ Change ownership ]
   cd /home/arkserver
   chown -R arkserver *
   chgrp -R arkserver *
+
+[ Create service entry ]
+
+  [ Copy ark.server into /lib/systemd/system ]
+  systemctl daemon-reload
+  systemctl enable ark.service
+
+[ Start ark service ]
+  systemctl start ark
