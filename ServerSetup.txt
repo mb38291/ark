@@ -57,3 +57,10 @@ apt install vim htop net-tools
 
 [ Start ark service ]
   systemctl start ark
+
+[ Updating ark ]
+
+  su - arkserver
+  cd server
+  steamcmd +login anonymous app_update 376030
+  app_update 376030
